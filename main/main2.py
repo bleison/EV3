@@ -1,5 +1,5 @@
-from pybricks.ev3devices import ColorSensor
-from pybricks.parameters import Port, Color
+from pybricks.ev3devices import Motor, Touchsensor
+from pybricks.parameters import Port
 
 left = Motor(Port.B)
 right = Motor(Port.C)
